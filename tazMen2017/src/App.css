@@ -33,7 +33,7 @@ body {
 }
 
 
-@media (min-width: 404px) {
+@media (min-width: 26.93rem) {
   header {
     height: 29em;
     background-image: url(./img/blue_man.jpg);
@@ -76,4 +76,16 @@ body {
 
 span {
   color: #00a3da;
+}
+
+@media (max-width: 26.92rem) {
+
+footer {
+  background-image: url(/static/media/blue_man.bb067ec3.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  height: 48vh;
+}
+
 }

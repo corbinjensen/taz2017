@@ -15,3 +15,9 @@ body {
     border-right: .3em solid #20488a;
   }
 }
+
+@media (min-width: 41rem) {
+  body {
+    font-size: 20px;
+  }
+}
