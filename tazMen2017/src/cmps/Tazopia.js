@@ -6,9 +6,9 @@ class Tazopia extends React.Component {
   render(){
     return (
       <img
-      src={TazLogo}
-      className="TazLogo"
-      alt="tazopia logo"
+        src={TazLogo}
+        className="TazLogo wrapper"
+        alt="tazopia logo"
       />
     )
   }

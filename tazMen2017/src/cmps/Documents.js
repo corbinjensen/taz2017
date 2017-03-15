@@ -7,7 +7,7 @@ import Release from '../docs/MenTAZrelease2017.pdf'
 class Documents extends React.Component {
   render(){
     return (
-      <ol>
+      <ol className="wrapper">
         <li><a href={Plan}>Plan</a></li>
         <li><a href={SignUp}>Sign Up</a></li>
         <li><a href={Release}>Release</a></li>

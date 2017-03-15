@@ -2,4 +2,16 @@ body {
   margin: 0;
   padding: 0;
   font-size: 15px;
+  line-height: 1.3;
+  max-width: 33em;
+}
+
+@media (min-width: 33em) {
+  body {
+    margin: 0 auto;
+  }
+
+  header {
+    border-right: .3em solid #20488a;
+  }
 }

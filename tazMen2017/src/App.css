@@ -4,8 +4,22 @@ h1,h2,h3 {
   font-family: 'Roboto', sans-serif;
 }
 
+h1 {
+  font-size: 3em;
+  line-height: .99;
+}
+
 h2 {
   color: #00a3da;
+}
+
+a {
+  color: #ff7d04;
+  text-decoration: underline;
+}
+
+.wrapper {
+  padding-left: .5em;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Libre+Franklin');
@@ -26,6 +40,12 @@ body {
     background-size: contain;
     background-repeat: no-repeat;
     background-position-x: right;
+  }
+}
+
+@media (min-width: 30em) {
+  .wrapper {
+    padding-left: 4em;
   }
 }
 
