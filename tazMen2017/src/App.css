@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+h1,h2,h3 {
+  font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+  color: #00a3da;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin');
+
+body {
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+.TazLogo {
+  width: 180px;
+}
+
+
+@media (min-width: 404px) {
+  header {
+    height: 29em;
+    background-image: url(./img/blue_man.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: right;
+  }
+}
+
+.intro {
+  max-width: 18em;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+span {
+  color: #00a3da;
+}
