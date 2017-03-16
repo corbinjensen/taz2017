@@ -1,6 +1,6 @@
 import React from 'react'
 
-import TazLogo from '../img/tazopia.png'
+import TazLogo from '../img/TazopiaLogo200xAI.svg'
 
 class Tazopia extends React.Component {
   render(){
