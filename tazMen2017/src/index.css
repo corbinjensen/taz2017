@@ -16,7 +16,19 @@ body {
   }
 }
 
-@media (min-width: 41rem) {
+
+
+
+
+@media (min-width: 34.26rem) {
+  body {
+    font-size: 17px;
+  }
+}
+
+
+
+@media (min-width: 36.2rem) {
   body {
     font-size: 20px;
   }
