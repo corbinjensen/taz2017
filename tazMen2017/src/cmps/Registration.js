@@ -1,13 +1,11 @@
 import React from 'react'
 
-import TypeForm from './TypeForm'
-
 class Registration extends React.Component {
   render(){
     return (
       <section className="Registration wrapper">
         <h2>Register Now</h2>
-        <TypeForm />
+        <a href="https://ttul.wufoo.com/forms/q164qzqr0nwn0rh/" target="_blank">Launch Form + Payment</a>
       </section>
     )
   }
