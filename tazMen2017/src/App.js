@@ -12,9 +12,9 @@ class App extends Component {
 
         <Header />
 
-        <Registration />
-
         <Documents />
+
+        <Registration />
 
         <Footer />
 
